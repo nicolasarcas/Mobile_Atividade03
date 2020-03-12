@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="408dp"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:rowCount="5">
+
+        <Button
+            android:id="@+id/btnPermisao"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_columnSpan="2"
+            android:gravity="center"
+            android:text="@string/textBotaoPermissao" />
+
+        <Button
+            android:id="@+id/btnAtivar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:paddingRight="0"
+            android:text="@string/textBotaoAtivar" />
+
+        <Button
+            android:id="@+id/btnDesativar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:text="@string/textBotaoDesativar" />
+
+        <Button
+            android:id="@+id/btnIniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:text="@string/textBotaoIniciar" />
+
+        <Button
+            android:id="@+id/btnTerminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:text="@string/textBotaoFinalizar" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:text="@string/textViewDistancia" />
+
+        <EditText
+            android:id="@+id/txtDistancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="@dimen/padding" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:text="@string/textViewTempo" />
+
+        <EditText
+            android:id="@+id/txtTempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="@dimen/padding" />
+
+        <EditText
+            android:id="@+id/txtProcurar"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/textBotaoProcura"
+            android:inputType="textPersonName"
+            android:padding="@dimen/padding" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="@dimen/padding"
+            app:srcCompat="@android:drawable/ic_menu_search"
+            tools:layout_editor_absoluteX="339dp"
+            tools:layout_editor_absoluteY="659dp" />
+    </GridLayout>
+
+</LinearLayout>

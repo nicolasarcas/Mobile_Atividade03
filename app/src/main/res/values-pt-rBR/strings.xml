@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS</string>
+    <string name="textBotaoPermissao">Conceder permissão de GPS</string>
+    <string name="textBotaoAtivar">Ativar GPS</string>
+    <string name="textBotaoDesativar">Desativar GPS</string>
+    <string name="textBotaoIniciar">Iniciar Rota</string>
+    <string name="textBotaoFinalizar">Finalizar Rota</string>
+    <string name="textViewDistancia">Distância Percorrida</string>
+    <string name="textViewTempo">Tempo Passado</string>
+    <string name="textBotaoProcura">O que você quer encontrar?</string>
+    <string name="no_gps_no_app">Sem o GPS o aplicativo não funciona</string>
+</resources>

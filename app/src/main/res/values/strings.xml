@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GPS</string>
+    <string name="textBotaoPermissao">Grant GPS Permission</string>
+    <string name="textBotaoAtivar">Enable GPS</string>
+    <string name="textBotaoDesativar">Disable GPS</string>
+    <string name="textBotaoIniciar">Start Route</string>
+    <string name="textBotaoFinalizar">Finish Route</string>
+    <string name="textViewDistancia">Travelled distance</string>
+    <string name="textViewTempo">Time spent</string>
+    <string name="textBotaoProcura">What do you want to find?</string>
+    <string name="no_gps_no_app">Without the GPS the app doesnt work</string>
+</resources>
