@@ -9,5 +9,18 @@
     <string name="textViewDistancia">Distância Percorrida</string>
     <string name="textViewTempo">Tempo Passado</string>
     <string name="textBotaoProcura">O que você quer encontrar?</string>
+
     <string name="no_gps_no_app">Sem o GPS o aplicativo não funciona</string>
+    <string name="ativarGPS">GPS habilitado</string>
+    <string name="desativarGPS">GPS desabilitado</string>
+    <string name="jaEstaDesativado">GPS não está habilitado</string>
+    <string name="jaEstaAtivado">GPS já esta habilitado</string>
+    <string name="pedirPermissao">Peça permissão para usar o GPS</string>
+    <string name="permissaoOK">Permissão concedida</string>
+    <string name="jaPermitido">Permissão já concedida</string>
+    <string name="percursoIniciado">Rota iniciada</string>
+    <string name="percursoFinalizado">Rota finalizada</string>
+    <string name="percursoJaIniciado">Rota já iniciada</string>
+    <string name="percursoJaFinalizado">Rota já finalizada</string>
+    <string name="emPercurso">Finalize a rota antes de desabilitar o GPS</string>
 </resources>

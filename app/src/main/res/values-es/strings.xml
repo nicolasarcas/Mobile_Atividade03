@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GPS</string>
-    <string name="textBotaoPermissao">Grant GPS Permission</string>
-    <string name="textBotaoAtivar">Enable GPS</string>
-    <string name="textBotaoDesativar">Disable GPS</string>
-    <string name="textBotaoIniciar">Start Route</string>
-    <string name="textBotaoFinalizar">Finish Route</string>
-    <string name="textViewDistancia">Travelled distance</string>
-    <string name="textViewTempo">Time spent</string>
-    <string name="textBotaoProcura">What do you want to find?</string>
-    <string name="no_gps_no_app">Sem o GPS o aplicativo não funciona</string>
+    <string name="textBotaoPermissao">Conceder permiso de GPS</string>
+    <string name="textBotaoAtivar">Habilitar GPS</string>
+    <string name="textBotaoDesativar">Deshabilitar GPS</string>
+    <string name="textBotaoIniciar">Iniciar ruta</string>
+    <string name="textBotaoFinalizar">Finalizar ruta</string>
+    <string name="textViewDistancia">Distancia recorrida</string>
+    <string name="textViewTempo">Tiempo usado</string>
+    <string name="textBotaoProcura">Qué quieres encontrar?</string>
+
+    <string name="no_gps_no_app">Sin GPS la aplicación no funciona</string>
+    <string name="ativarGPS">GPS habilitado</string>
+    <string name="desativarGPS">GPS deshabilitado</string>
+    <string name="jaEstaDesativado">GPS is not enabled</string>
+    <string name="jaEstaAtivado">GPS no está habilitado</string>
+    <string name="pedirPermissao">Pedir permiso para usar gps</string>
+    <string name="permissaoOK">Permiso concedido</string>
+    <string name="jaPermitido">Permiso ya otorgado</string>
+    <string name="percursoIniciado">Ruta iniciada</string>
+    <string name="percursoFinalizado">Ruta terminada</string>
+    <string name="percursoJaIniciado">Ruta ya iniciada</string>
+    <string name="percursoJaFinalizado">Ruta ya terminada</string>
+    <string name="emPercurso">Finalice la ruta antes de deshabilitar el GPS</string>
 </resources>

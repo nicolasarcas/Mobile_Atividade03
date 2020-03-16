@@ -4,83 +4,136 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/marginBottom"
     android:background="@color/colorBackground"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <GridLayout
+    <Button
+        android:id="@+id/btnPermisao"
         android:layout_width="match_parent"
-        android:layout_height="408dp"
-        android:layout_gravity="center"
-        android:columnCount="2"
-        android:rowCount="5">
+        android:layout_height="70dp"
+        android:layout_columnSpan="2"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:gravity="center"
+        android:text="@string/textBotaoPermissao" />
 
-        <Button
-            android:id="@+id/btnPermisao"
-            android:layout_width="match_parent"
-            android:layout_height="73dp"
-            android:layout_columnSpan="2"
-            android:gravity="center"
-            android:text="@string/textBotaoPermissao" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:orientation="horizontal"
+        android:gravity="center">
 
         <Button
             android:id="@+id/btnAtivar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom"
             android:padding="@dimen/padding"
-            android:paddingRight="0"
-            android:text="@string/textBotaoAtivar" />
+            android:text="@string/textBotaoAtivar"
+            android:layout_weight="1"/>
 
         <Button
             android:id="@+id/btnDesativar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom"
             android:padding="@dimen/padding"
-            android:text="@string/textBotaoDesativar" />
+            android:text="@string/textBotaoDesativar"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnIniciar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom"
             android:padding="@dimen/padding"
-            android:text="@string/textBotaoIniciar" />
+            android:text="@string/textBotaoIniciar"
+            android:layout_weight="1"/>
 
         <Button
             android:id="@+id/btnTerminar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom"
             android:padding="@dimen/padding"
-            android:text="@string/textBotaoFinalizar" />
+            android:text="@string/textBotaoFinalizar"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
+            android:layout_width="296dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:padding="@dimen/padding"
-            android:text="@string/textViewDistancia" />
+            android:text="@string/textViewDistancia"
+            android:textSize="@dimen/tamanhoTexto" />
 
         <EditText
             android:id="@+id/txtDistancia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:ems="10"
+            android:enabled="false"
             android:inputType="textPersonName"
-            android:padding="@dimen/padding" />
+            android:padding="@dimen/padding"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="@dimen/tamanhoTexto" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:padding="@dimen/padding"
-            android:text="@string/textViewTempo" />
+            android:text="@string/textViewTempo"
+            android:textSize="@dimen/tamanhoTexto" />
 
-        <EditText
-            android:id="@+id/txtTempo"
+        <Chronometer
+            android:id="@+id/chronometer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:padding="@dimen/padding" />
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/tamanhoTexto" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <EditText
             android:id="@+id/txtProcurar"
@@ -89,17 +142,20 @@
             android:ems="10"
             android:hint="@string/textBotaoProcura"
             android:inputType="textPersonName"
-            android:padding="@dimen/padding" />
+            android:textSize="@dimen/tamanhoTexto"
+            android:layout_weight="1"/>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="0.5"
             android:clickable="true"
-            android:padding="@dimen/padding"
+            app:fabCustomSize="70dp"
+            app:fabSize="normal"
             app:srcCompat="@android:drawable/ic_menu_search"
             tools:layout_editor_absoluteX="339dp"
             tools:layout_editor_absoluteY="659dp" />
-    </GridLayout>
+    </LinearLayout>
 
 </LinearLayout>

@@ -8,5 +8,18 @@
     <string name="textViewDistancia">Travelled distance</string>
     <string name="textViewTempo">Time spent</string>
     <string name="textBotaoProcura">What do you want to find?</string>
+
     <string name="no_gps_no_app">Without the GPS the app doesnt work</string>
+    <string name="ativarGPS">GPS enabled</string>
+    <string name="desativarGPS">GPS disabled</string>
+    <string name="jaEstaDesativado">GPS is not enabled</string>
+    <string name="jaEstaAtivado">GPS is already enabled</string>
+    <string name="pedirPermissao">Ask permission to use gps</string>
+    <string name="permissaoOK">Permission granted</string>
+    <string name="jaPermitido">Permission already granted</string>
+    <string name="percursoIniciado">Route started</string>
+    <string name="percursoFinalizado">Route finished</string>
+    <string name="percursoJaIniciado">Route already started</string>
+    <string name="percursoJaFinalizado">Route already finished</string>
+    <string name="emPercurso">Finish the route before disabling GPS</string>
 </resources>

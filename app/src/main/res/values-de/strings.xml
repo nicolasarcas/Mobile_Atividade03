@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GPS</string>
-    <string name="textBotaoPermissao">Grant GPS Permission</string>
-    <string name="textBotaoAtivar">Enable GPS</string>
-    <string name="textBotaoDesativar">Disable GPS</string>
-    <string name="textBotaoIniciar">Start Route</string>
-    <string name="textBotaoFinalizar">Finish Route</string>
-    <string name="textViewDistancia">Travelled distance</string>
-    <string name="textViewTempo">Time spent</string>
-    <string name="textBotaoProcura">What do you want to find?</string>
-    <string name="no_gps_no_app">Sem o GPS o aplicativo não funciona</string>
+    <string name="textBotaoPermissao">GPS-Berechtigung erteilen</string>
+    <string name="textBotaoAtivar">GPS aktivieren</string>
+    <string name="textBotaoDesativar">GPS deaktivieren</string>
+    <string name="textBotaoIniciar">Route starten</string>
+    <string name="textBotaoFinalizar">Route beenden</string>
+    <string name="textViewDistancia">Zurückgelegte Strecke</string>
+    <string name="textViewTempo">Zeitaufwand</string>
+    <string name="textBotaoProcura">Was möchtest du finden?</string>
+
+    <string name="no_gps_no_app">Ohne GPS funktioniert die Anwendung nicht</string>
+    <string name="ativarGPS">GPS aktiviert</string>
+    <string name="desativarGPS">GPS deaktiviert</string>
+    <string name="jaEstaDesativado">GPS ist nicht aktiviert</string>
+    <string name="jaEstaAtivado">GPS ist bereits aktiviert</string>
+    <string name="pedirPermissao">Bitte um Erlaubnis, GPS verwenden zu dürfen</string>
+    <string name="permissaoOK">Erlaubnis erteilt</string>
+    <string name="jaPermitido">Erlaubnis bereits erteilt</string>
+    <string name="percursoIniciado">Route gestartet</string>
+    <string name="percursoFinalizado">Route beendet</string>
+    <string name="percursoJaIniciado">Route bereits gestartet</string>
+    <string name="percursoJaFinalizado">Route bereits beendet</string>
+    <string name="emPercurso">Beenden Sie die Route, bevor Sie GPS deaktivieren</string>
 </resources>
